@@ -1,0 +1,26 @@
+.Grön  {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border: 25px solid darkgreen;
+    padding: 100px;
+    margin: 20px;
+  }
+
+  .Gul {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border: 25px solid darkgoldenrod;
+    padding: 100px;
+    margin: 20px;
+  }
+
+  .Röd {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 25px solid darkred;
+    padding: 100px;
+    margin: 20px;
+  }
