@@ -1,26 +1,52 @@
 .Grön  {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     background-color: green;
     border: 25px solid darkgreen;
-    padding: 100px;
+    padding: 0%;
     margin: 20px;
+  }
+
+  .insidagrön {
+    height: 50%;
+    width: 50%;
+    background-color: lightgreen;
+    position: relative;
+    top: 50%;
   }
 
   .Gul {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     background-color: yellow;
     border: 25px solid darkgoldenrod;
-    padding: 100px;
+    padding: 0%;
     margin: 20px;
   }
 
+  .insidagul {
+    height: 50%;
+    width: 50%;
+    background-color: lightyellow;
+    position: relative;
+    left: 50%;
+    top: 50%;
+  }
+
   .Röd {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     background-color: red;
     border: 25px solid darkred;
-    padding: 100px;
+    padding: 0%;
     margin: 20px;
+  }
+
+  .insidaröd{
+    height: 50%;
+    width: 100%;
+    background-color: lightcoral;
+    position: relative;
+    top: 50%;
+
   }
