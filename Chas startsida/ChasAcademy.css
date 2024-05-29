@@ -1,0 +1,149 @@
+
+.section {
+    
+}
+
+body {
+    margin: 0;
+}
+
+:root {
+    --color-white: white;
+  }
+
+/* TYPSNITT */
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* SIDAN */
+.HeroBild {
+    background-image: url(/Assets/Bilder/Grupp-studenter-chas-academy-hero-homepage.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    height: 815px;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: top center;
+    padding: 20px;
+    color: white;
+}
+
+.Logo {
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+}
+
+.Links {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.Links li {
+    margin: 10px;
+}
+
+.CTA {
+    padding: 8px 24px 6px;
+    color: white;
+    background-color: #4C64FF;
+    border-color: #4C64FF;
+    border-style: solid;
+    border-radius: 120px;
+    display: flex;
+    
+}
+
+.HeroRubrik {
+    padding-top: 180px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 83px;
+    margin: auto;
+    max-width: 670px;
+    color: white; 
+}
+
+.HeroUnderRubrik { 
+    max-width: 264px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;   
+}
+
+.chasAcademy-steget {
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: black;
+    max width: 500px;
+}
+
+.knappHeroCTA {
+    display: flex;
+    transform: rotate(90deg);
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    margin: auto;
+    background: #4C64FF;
+    vertical-align: middle;
+    align-self: center;
+    animation: 7s ease 0s infinite normal none running revolve;
+}
+
+.css-1qwzrug {
+    transform: scale(0.5, 0.5);
+}
+
+.SectionPrimary {
+    /* display: flex; */
+    background-color: white;
+    background-size: cover;
+    margin: 80px;
+}
+
+.primaryBild {
+    flex-direction: column;
+
+}
+
+.primaryText {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;    
+}
+
+p {
+    /* max-width: 500px; */
+}

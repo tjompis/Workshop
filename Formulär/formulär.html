@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulär.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="skapaFormHeader">
+        <div clafs="Logo">
+            Logo<svg class="login-page__header-logo--color" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0023 31.5186C9.42978 31.5186 7.63623 33.3619 7.63623 36.007C7.63623 38.652 9.4343 40.4953 12.0023 40.4953C14.5704 40.4953 16.382 38.652 16.382 36.007C16.382 33.3619 14.584 31.5186 12.0023 31.5186Z"></path>
+                <path d="M0 24V48H24V24H0ZM12.0023 44.345C7.11078 44.345 3.69126 40.9164 3.69126 36.0023C3.69126 31.0881 7.11078 27.6596 12.0023 27.6596C16.8938 27.6596 20.3133 31.0881 20.3133 36.0023C20.3133 40.9164 16.8938 44.345 12.0023 44.345Z"></path>
+                <path d="M0 0V24H24V0H0ZM18.7598 17.7226C17.2425 19.4844 15.1727 20.345 12.4416 20.345C7.69051 20.345 4.37064 16.9209 4.37064 12.0113C4.37064 7.10172 7.69051 3.65956 12.4416 3.65956C15.1863 3.65956 17.238 4.49745 18.7145 6.214C19.2716 6.86167 19.6203 7.67239 19.6203 8.32912C19.6203 9.36629 18.8005 10.2087 17.7951 10.2087C17.3603 10.2087 16.7171 10.0638 16.1057 9.37082C15.1727 8.09813 14.0268 7.51387 12.4824 7.51387C10.0276 7.51387 8.311 9.36177 8.311 12.0113C8.311 14.6609 10.0276 16.4861 12.4824 16.4861C13.9996 16.4861 15.1455 15.9019 16.0966 14.6428L16.1102 14.6292C16.6129 14.0857 17.2017 13.7958 17.8177 13.7958C18.8186 13.7958 19.6339 14.6382 19.6339 15.6754C19.6339 16.3004 19.2897 17.1066 18.7598 17.7271V17.7226Z"></path>
+                <path d="M35.5679 7.73109H32.47V16.2686H35.5679C37.7827 16.2686 39.3271 14.5112 39.3271 11.9976C39.3271 9.48388 37.7827 7.72656 35.5679 7.72656V7.73109Z"></path>
+                <path d="M24 0V24H48V0H24ZM35.5765 20.0189H30.5492C29.4214 20.0189 28.6379 19.2127 28.6379 18.0623V5.95131C28.6379 4.77373 29.4078 3.98566 30.5492 3.98566H35.5765C40.237 3.98566 43.3667 7.20589 43.3667 12.0023C43.3667 16.7986 40.237 20.0189 35.5765 20.0189Z"></path>
+                <path d="M24 24V48H48V24H24ZM43.0225 41.9989C43.0225 43.3621 42.1846 44.2816 40.939 44.2816C40.0785 44.2816 39.4625 43.883 38.6654 42.8141L32.8137 34.7794V42.3159C32.8137 43.4754 32.0211 44.2816 30.8888 44.2816C29.7566 44.2816 28.9775 43.4708 28.9775 42.3159V29.9966C28.9775 28.6197 29.8154 27.7275 31.1062 27.7275C32.003 27.7275 32.5465 28.0944 33.4342 29.3082L39.1863 37.4335V29.6931C39.1863 28.5337 39.9743 27.7275 41.0976 27.7275C42.2208 27.7275 43.0179 28.5382 43.0179 29.6931V41.9989H43.0225Z"></path>
+            </svg>
+        </div>
+        <button class="tillbaka">
+            <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 14L8.41 12.59L3.83 8H20V6H3.83L8.42 1.41L7 0L0 7L7 14Z" fill="#140728"></path>
+            </svg>
+            Tillbaka till CDON
+        </button>
+        
+    </div>
+    
+    <div class="sidaSkapaKonto">
+        
+        
+
+        <div class="skapaKontoForm manrope-sansserif">
+            <h1>
+                Skapa konto
+            </h1>
+            <!-- TEXTFÄLT -->
+            <div class="formsTextfält">
+                <label for="E-postadress">E-postadress</label>
+                <input 
+                type="E-postadress"
+                id="E-post"
+                type="text"
+                required
+                aria-required="true"
+                >
+                
+                <label for="password">Lösenord</label>
+                <input 
+                type="Lösenord"
+                id="password"
+                type="password"
+                required
+                aria-required="true"
+                >
+
+                <label for="passwordCheck">Bekräfta lösenord</label>
+                <input 
+                id="passwordCheck"
+                type="passwordCheck"
+                required
+                aria-required="true"
+                >
+                
+                <div class="checkboxes">
+                
+                    <div class="checkbox1">
+                        <input 
+                    type="checkbox"
+                    id="acceptNews"
+                    >  
+                    <label for="acceptNews">
+                        Jag vill ta emot nyhetsbrev, rabattkoder och andra erbjudande för CDON.
+                    </label>
+                    </div>
+
+                    <div class="checkbox2">
+                        <input 
+                    type="checkbox"
+                    id="acceptTerms"
+                    >
+                    <label for="acceptTerms">
+                        Jag har tagit del av och förstått CDON ABs integritetspolicy, Medlemsvillkor & Allmänna villkor av integritetspolicyn framgår bl.a. att CDON analyserar mina personuppgifter för att kunna erbjuda mig relevant och anpassad information och marknadsföring för CDON.
+                    </label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skapaKnappar">
+
+                <button class="SkapaKonto">
+                    Skapa konto
+                </button>
+
+                <button class="LoggaIn">
+                    
+                    Har du ett konto? Logga in
+                </button>
+
+            </div>
+
+            <div class="copyright">
+                <h3>© Copyright 1999-2024 CDON AB</h3>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
