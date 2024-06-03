@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="se">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Skapa konto på CDON.se</title>
     <link rel="stylesheet" href="formulär.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,28 +54,30 @@
             </h1>
             <!-- TEXTFÄLT -->
             <div class="formsTextfält">
-                <label for="inputField">E-postadress</label>
-                <input type="email" class="inputField" required aria-required="true">
+                <form action="https://httpbin.org/anything" method="post"> 
+                    <label for="inputField">E-postadress</label>
+                    <input type="email" class="inputField" required aria-required="true">
 
-                <label for="inputField">Lösenord</label>
-                <input type="password" class="inputField" required aria-required="true">
+                    <label for="inputField">Lösenord</label>
+                    <input type="password" class="inputField" required aria-required="true">
 
-                <label for="inputField">Bekräfta lösenord</label>
-                <input class="inputField" type="password" required aria-required="true">
+                    <label for="inputField">Bekräfta lösenord</label>
+                    <input type="password" class="inputField" required aria-required="true">
+                </form>
             </div>
 
             <div class="checkboxes">
 
                 <div class="checkbox">
                     <input type="checkbox" class="accept">
-                    <label for="acceptNews">
+                    <label for="checkbox">
                         Jag vill ta emot nyhetsbrev, rabattkoder och andra erbjudande för CDON.
                     </label>
                 </div>
 
                 <div class="checkbox">
                     <input type="checkbox" required class="accept">
-                    <label for="acceptTerms">
+                    <label for="checkbox">
                         Jag har tagit del av och förstått CDON ABs integritetspolicy, Medlemsvillkor & Allmänna
                         villkor av integritetspolicyn framgår bl.a. att CDON analyserar mina personuppgifter för att
                         kunna erbjuda mig relevant och anpassad information och marknadsföring för CDON.
@@ -99,6 +101,7 @@
 
             <div class="copyright">
                 © Copyright 1999-2024 CDON AB
+
             </div>
 
         </div>

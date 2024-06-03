@@ -52,7 +52,7 @@ body {
 
 .skapaKontoForm {
     background-color: white;
-    height: 775px;
+    height: 800px;
     max-width: 560px;
     padding: 40px;
     border-radius: 1%;
@@ -111,7 +111,7 @@ body {
 }
 
 .SkapaKonto {
-    background-color: white;
+    background-color: #dfdde2;
     border-color: #dfdde2;
     border-radius: 100px;
     padding: 24px 16px;
@@ -133,7 +133,6 @@ body {
 .copyright {
     text-align: center;
     margin: 24px;
-    margin-bottom: 48px;
 }
 
 h1 {
