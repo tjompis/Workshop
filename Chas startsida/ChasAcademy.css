@@ -1,5 +1,7 @@
 
 .section {
+    width: 100vh;
+    height: 1200px;
     
 }
 
@@ -25,7 +27,7 @@ body {
 
 /* SIDAN */
 .HeroBild {
-    background-image: url(/Assets/Bilder/Grupp-studenter-chas-academy-hero-homepage.jpg);
+    background-image: url(Assets/Bilder/1702474694-chas-academy-hero-homepage.jpg);
     background-size: cover;
     background-position: top center;
     width: 100%;
@@ -127,23 +129,95 @@ h3 {
 }
 
 .SectionPrimary {
-    /* display: flex; */
+    display: flex;
     background-color: white;
     background-size: cover;
     margin: 80px;
+    height: fit-content;
 }
 
 .primaryBild {
-    flex-direction: column;
-
+    width: fit-content;
+    flex-direction: row;
 }
 
 .primaryText {
     display: flex;
-    max-width: 500px;
-    flex-direction: column;    
+    flex-direction: column;   
 }
 
 p {
-    /* max-width: 500px; */
+    line-height: 1.5;
 }
+
+.quotesSection {
+    padding-top: 40px;
+    background-color: whitesmoke;
+    min-height: 700px;
+    width: 100%;
+}
+
+.studenterQuotes {
+    display: flex;
+    min-height: fit-content;
+    margin: 40px;
+}
+
+.rubrikStudenter {
+    margin: 40px;
+}
+
+.bilderStudenter {
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.sectionApply {
+    align-self: center;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.applyHere {
+    padding: 8px 24px 6px;
+    color: white;
+    background-color: #4C64FF;
+    border-color: #4C64FF;
+    border-style: solid;
+    border-radius: 120px;
+    display: flex;
+    align-self: center;
+    font-size: large;
+}
+
+.footer {
+    background-color: lightskyblue;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+}
+
+.footerCTA {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(Assets/Bilder/footerblue.webp);
+    background-repeat: no-repeat;
+    font-size: x-large;
+    text-align: left;
+
+}
+
+.footerLinksKontakt {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
+}
+
