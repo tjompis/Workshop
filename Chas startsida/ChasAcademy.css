@@ -108,7 +108,6 @@ h2 {
 h3 {
     text-transform: uppercase;
     color: black;
-    max width: 500px;
 }
 
 .knappHeroCTA {
@@ -196,28 +195,37 @@ p {
 }
 
 .footer {
-    background-color: lightskyblue;
-    padding: 80px;
+    background-color: whitesmoke;
+    padding-left: 0px;
     display: flex;
     flex-direction: row;
-    align-items: last baseline;
+    justify-content: space-between;
+    
+
 }
 
 .footerCTA {
     display: flex;
-    flex-wrap: wrap;
+    height: cover;
+    flex-direction: column;
     background-image: url(Assets/Bilder/footerblue.webp);
     background-repeat: no-repeat;
-    font-size: x-large;
+    background-size: 125%;
+    font-size: xx-large;
     text-align: left;
+    padding: 20px;
+    padding-left: 60px;
+    width: 30%;  
 
 }
 
 .footerLinksKontakt {
     padding: 40px;
+    padding-right: 60px;
     display: flex;
     align-items: center;
     flex-direction: column;
     line-height: 2;
+    width: 30%;
 }
 
